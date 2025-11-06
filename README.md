@@ -3,6 +3,8 @@ Proyek ini merupakan simulasi pengujian konektivitas jaringan menggunakan Cisco 
 🧩 Topologi Jaringan
 https://github.com/user-attachments/assets/ee6b2124-de5e-48aa-98b9-00e323ddae0d
 
+![Topologi Jaringan](https://github.com/user-attachments/assets/ee6b2124-de5e-48aa-98b9-00e323ddae0d)
+
 | Perangkat         | Interface        | IP Address                          | Subnet Mask   |
 | ----------------- | -----------------| ----------------------------------- | ------------- |
 | PC0 (PC-A)        | FastEthernet0    | 192.168.1.3                         | 255.255.255.0 |
@@ -20,13 +22,11 @@ ping 192.168.1.3
 🟥 Sebelum Konfigurasi Berhasil
 Pada awal pengujian, koneksi gagal karena konfigurasi routing pada router belum dilakukan.
 Hasil ping menunjukkan Request Timed Out (RTO) seperti gambar berikut:
-[before]
-https://github.com/user-attachments/assets/ca813cfc-655c-4856-96ee-ddb41bcdeb5c
+![before konfigurasi](https://github.com/user-attachments/assets/ca813cfc-655c-4856-96ee-ddb41bcdeb5c)
 
 🟩 Setelah Konfigurasi Berhasil
 Setelah melakukan konfigurasirouting, pengujian ulang menunjukkan hasil berhasil terkoneksi:
-[after]
-https://github.com/user-attachments/assets/803019e6-5c4f-4803-8158-32611e0db283
+![after konfigurasi](https://github.com/user-attachments/assets/803019e6-5c4f-4803-8158-32611e0db283)
 
 🔍 Kesimpulan
 Pada awalnya, konektivitas antara PC-B dan PC-A gagal karena belum ada konfigurasi routing yang sesuai.
