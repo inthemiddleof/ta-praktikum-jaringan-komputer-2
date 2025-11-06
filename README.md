@@ -1,8 +1,6 @@
 Proyek ini merupakan simulasi pengujian konektivitas jaringan menggunakan Cisco Packet Tracer. Tujuan dari pengujian ini adalah untuk memastikan bahwa komunikasi antar perangkat (PC-A dan PC-B) melalui Switch dan Router dapat berjalan dengan baik setelah konfigurasi jaringan dilakukan.
 
 🧩 Topologi Jaringan
-https://github.com/user-attachments/assets/ee6b2124-de5e-48aa-98b9-00e323ddae0d
-
 ![Topologi Jaringan](https://github.com/user-attachments/assets/ee6b2124-de5e-48aa-98b9-00e323ddae0d)
 
 | Perangkat         | Interface        | IP Address                          | Subnet Mask   |
@@ -19,6 +17,7 @@ ping 192.168.1.3
 4. Amati hasil yang muncul di Command Prompt.
 
 📊 Hasil Pengujian
+
 🟥 Sebelum Konfigurasi Berhasil
 Pada awal pengujian, koneksi gagal karena konfigurasi routing pada router belum dilakukan.
 Hasil ping menunjukkan Request Timed Out (RTO) seperti gambar berikut:
